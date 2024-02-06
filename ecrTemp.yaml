@@ -1,0 +1,15 @@
+template:
+  name: ecr
+  identifier: ecr
+  versionLabel: v1
+  type: ArtifactSource
+  projectIdentifier: satyamTest
+  orgIdentifier: default
+  tags: {}
+  spec:
+    type: DockerRegistry
+    spec:
+      imagePath: <+input>
+      tag: <+input>
+      digest: ""
+      connectorRef: account.CDCNG_Docker_h8VJw3xmCn
