@@ -1,6 +1,6 @@
 template:
-  name: ecr
-  identifier: ecr
+  name: ecrRemoteTemplate
+  identifier: ecrRemoteTemplate
   versionLabel: v1
   type: ArtifactSource
   projectIdentifier: satyamTest
